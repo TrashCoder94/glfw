@@ -30,6 +30,7 @@ project "glfw"
 			"src/wgl_context.*"
 		}
 	filter "system:linux"
+		pic "on"
 		defines "_GLFW_X11"
 		files
 		{
